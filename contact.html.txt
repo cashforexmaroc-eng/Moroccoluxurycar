@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MOROCCO LUXURY CAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MOROCCO LUXURY CAR</div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="fleet.html" class="nav-link">Fleet</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="lang-switch">
+            <button id="lang-en">EN</button> | <button id="lang-fr">FR</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="content">
+            <h1 id="contact-title">Contact</h1>
+            <p id="contact-text">For inquiries, contact us directly via WhatsApp.</p>
+            <a href="https://wa.me/1234567890" class="cta-button" id="contact-cta">WhatsApp</a>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">MOROCCO LUXURY CAR | Private Mobility Services</p>
+        <a href="https://wa.me/1234567890" class="whatsapp-link">WhatsApp</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

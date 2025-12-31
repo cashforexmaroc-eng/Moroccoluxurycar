@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleet - MOROCCO LUXURY CAR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MOROCCO LUXURY CAR</div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="fleet.html" class="nav-link">Fleet</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+        <div class="lang-switch">
+            <button id="lang-en">EN</button> | <button id="lang-fr">FR</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="content">
+            <h1 id="fleet-title">Fleet</h1>
+            <div class="fleet-categories">
+                <div class="category">
+                    <h2 id="sedans-title">Sedans</h2>
+                    <p id="sedans-text">Elegant and refined vehicles for executive travel.</p>
+                </div>
+                <div class="category">
+                    <h2 id="suvs-title">SUVs</h2>
+                    <p id="suvs-text">Spacious and powerful options for diverse terrains.</p>
+                </div>
+                <div class="category">
+                    <h2 id="sports-title">Sports Cars</h2>
+                    <p id="sports-text">High-performance models for discerning enthusiasts.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">MOROCCO LUXURY CAR | Private Mobility Services</p>
+        <a href="https://wa.me/1234567890" class="whatsapp-link">WhatsApp</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
